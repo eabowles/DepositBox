@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/settings"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:gravity="center"
+        android:padding="10dp"
+        />
+
+    <ToggleButton
+        android:id="@+id/encrypt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textOn="@string/encrypt"
+        android:onClick="onEncryptClick"
+        android:textOff="@string/encrypt"
+        />
+
+    <ToggleButton
+        android:id="@+id/compress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textOn="@string/compress"
+        android:textOff="@string/compress"
+        android:onClick="onCompressClick" 
+        />
+
+    <ToggleButton
+        android:id="@+id/obfuscate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textOn="@string/obfuscate"
+        android:textOff="@string/obfuscate"
+        android:onClick="onObfuscateClick" />
+    
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DepositBox</string>
+    <string name="addfile">Add Files</string>
+    <string name="retrieve">Retrieve Files</string>
+    <string name="account">Account Details</string>
+    <string name="settings">Settings</string>
+    <string name="header">DepositBox</string>
+    <string name="about">DepositBox: A secure interface to DropBox\n\n
+        This application is not affiliated with DropBox in any way.\n\n
+        Author: Edward Bowles\n
+        Contact:\n
+            Email: e.a.bowles@gmail.com\n
+            Twitter: @edwardbowles</string>
+    <string name="select">Select</string>
+    <string name="encrypt">Encrypt</string>
+    <string name="compress">Compress</string>
+    <string name="obfuscate">Obfuscate</string>
+</resources>
